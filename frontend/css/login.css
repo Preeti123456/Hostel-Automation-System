@@ -1,8 +1,9 @@
 body{
 	margin:0;
 	color:#6a6f8c;
-	background:#c8c8c8;
+	background:url(../images/igdtuw.jpg) no-repeat center;
 	font:600 16px/18px 'Open Sans',sans-serif;
+	background-size: cover;
 }
 *,:after,:before{box-sizing:border-box}
 .clearfix:after,.clearfix:before{content:'';display:table}
@@ -11,18 +12,19 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{
 	width:100%;
-	margin-top:40px;
+	margin-top:20px;
 	max-width:525px;
 	min-height:545px;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	background:url(images) no-repeat center;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 .login-html{
 	width:100%;
 	height:100%;
 	position:absolute;
-	padding:90px 70px 50px 70px;
+	padding: 10%;
+	padding:55px 70px 30px 70px;
 	background:rgba(40,57,101,.9);
 }
 .login-html .sign-in-htm,
@@ -40,6 +42,7 @@ a{color:inherit;text-decoration:none}
 .login-html .sign-up,
 .login-form .group .check{
 	display:none;
+	height: auto;
 }
 .login-html .tab,
 .login-form .group .label,
@@ -47,7 +50,7 @@ a{color:inherit;text-decoration:none}
 	text-transform:uppercase;
 }
 .login-html .tab{
-	font-size:22px;
+	font-size:20px;
 	margin-right:15px;
 	padding-bottom:5px;
 	margin:0 15px 10px 0;
@@ -60,7 +63,8 @@ a{color:inherit;text-decoration:none}
 	border-color:#1161ee;
 }
 .login-form{
-	min-height:345px;
+	height: auto;
+	min-height:390px;
 	position:relative;
 	perspective:1000px;
 	transform-style:preserve-3d;
@@ -81,14 +85,23 @@ a{color:inherit;text-decoration:none}
 	padding:15px 20px;
 	border-radius:25px;
 	background:rgba(255,255,255,.1);
+		font-size: 18px;
+	color: white;
+	font-weight: ;
+}
 }
 .login-form .group input[data-type="password"]{
 	text-security:circle;
 	-webkit-text-security:circle;
-}
+	margin-bottom: 30px;
+	height: 15px;
+
 .login-form .group .label{
 	color:#aaa;
-	font-size:12px;
+	font-size:8px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
 }
 .login-form .group .button{
 	background:#1161ee;
@@ -113,7 +126,7 @@ a{color:inherit;text-decoration:none}
 .login-form .group label .icon:before{
 	left:3px;
 	width:5px;
-	bottom:6px;
+	bottom:10px;
 	transform:scale(0) rotate(0);
 }
 .login-form .group label .icon:after{
@@ -142,9 +155,11 @@ a{color:inherit;text-decoration:none}
 
 .hr{
 	height:2px;
-	margin:60px 0 50px 0;
+	margin:1px 0 10px 0;
 	background:rgba(255,255,255,.2);
 }
-.foot-lnk{
+.footer{
 	text-align:center;
+	color: white;
+	margin-bottom:100px;
 }

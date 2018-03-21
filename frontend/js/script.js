@@ -3,7 +3,7 @@ $(window).bind("load", function() {
 
     "use strict";
     
-    $(".spn_hol").fadeOut(1000);
+    $(".container1").fadeOut(2500);
 });
 
 

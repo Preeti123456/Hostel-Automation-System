@@ -2,25 +2,28 @@
 <html>
 <head>
 	<link rel="shortcut icon" type="../image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="feedback.css">
 	<title>FeedBack</title>
 </head>
 <body>
-	<span>
-		<form>
-			<fieldset>
+	<div class="form-layout">
+	
+		<center>
+		<form class="form">
+			<fieldset class="form-content">
 				<legend><b>Kindly input your feedback.	</b></legend>
 				
 				<label>Name</label><br>
-				<input type="Text" name="realname" alt="Enter your name here">
+				<input type="Text" name="realname" alt="Enter your name here" onfocus="textboxcolor(this)">
 				<br><br>
 				
 				<label alt="Subject regarding feedback">Subject</label>
 				<br>
-				<input type="Text" name="Subject">
+				<input type="Text" name="Subject"  onfocus="textboxcolor(this)">
 				<br><br>
 
 				<label>Feedback</label><br>
-				<textarea rows="10" cols="70" alt="Please enter your vakuable feedback"></textarea>
+				<textarea rows="10" cols="70" alt="Please enter your vakuable feedback"  onfocus="textboxcolor(this)"></textarea>
 				<br><br><br>
 
 				<input type="submit" name="submit">
@@ -29,8 +32,13 @@
 
 			</fieldset>
 		</form>
-	</span>
-
+	</center>
+	</div>
+<script>
+function textboxcolor(x) {
+    x.style.background ="#FFEFD5";
+}
+</script>
 
 </body>
 </html>

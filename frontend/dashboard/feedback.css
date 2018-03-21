@@ -1,1 +1,36 @@
-f
+body{
+	margin-right:100%;
+	margin-left: 30%;
+	padding-top: 50px;
+
+	color:#6a6f8c;
+	background: #FFEFD5;
+	position: relative;
+	font:600 16px/18px 'Open Sans',sans-serif;
+
+}
+
+.form-layout{
+	alignment-baseline: central;
+	position: absolute;
+}
+.form-layout .form{
+	background:#FFDAB9;
+	width:100%;
+	margin-top:20px;
+	margin-right: 20%;
+	width: auto;
+	align-content: center;
+	height: auto;
+	padding: 20px;
+	margin-top:center;
+
+	margin-bottom: center;
+	position:absolute;
+
+}
+
+.form-content{
+	padding: 25px;
+	margin: 10px;
+}

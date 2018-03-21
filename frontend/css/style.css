@@ -40,8 +40,9 @@ p {
 -----------------------------------------*/
 
 .section_title {
-    padding-top: 90px;
+    padding-top: 72px;
     padding-bottom: 50px;
+    font-family: 'Vollkorn', serif;
 }
 .section_title h2 {
     text-transform: uppercase;
@@ -152,22 +153,21 @@ p {
     background: transparent;
     color: #f39c12;
 }
+
 .header {
-    background: url(../images/subscribe.jpg);
+    background: url(../images/bg11.gif);
     background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .header .section_overlay {
-    background-color: rgba(33, 33, 33, .75);
+    background-color: rgba(33, 33, 33, .70);
 }
 .logo{
     padding-bottom: 50px;
 }
 .home_text{
-    text-align: left;
+    text-align: center;
 }
-
-
 @media (max-width: 768px){
     .home-iphone{
         display: none;
@@ -176,21 +176,20 @@ p {
         text-align: center;
     }
 
-}
-.home_text h1 {
+}.home_text h1 {
     color: #fff;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 300;
-    line-height: 45px;
-    padding-top: 30px
+    font-size: 28px;
+    transform: uppercase;
+    font-family: 'Bungee Inline', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .home_text p {
     color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    margin-top: 0px;
-    font-weight: 300;
+    font-size: 55px;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 6px;
+    padding-top: 10px;
 }
 .download-btn {
     margin-top: 90px;
@@ -381,6 +380,9 @@ tuor:visited {
     border: 1px solid #999999;
     padding: 5px;
 }
+
+
+
 /*---------------------------------------
    SECTION TESTIMONIAL              
 -----------------------------------------*/
@@ -453,12 +455,21 @@ div.carousel-inner .item img {
    SECTION FEATURES              
 -----------------------------------------*/
 
+
 .features {
-    background-color: #f1f1f1
+    background: #C0C0C0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DCDCDC, #DCDCDC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DCDCDC, #DCDCDC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.wow h2 {
+    margin-top: 100px;
+}
+
 .feature_inner {
-    padding-top: 30px;
-    padding-bottom: 70px;
+    margin-top: 90px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: rgba(53, 53, 53, .55);
 }
 .feature_iphone {} .feature_iphone img {
     width: 100%;
@@ -466,7 +477,7 @@ div.carousel-inner .item img {
 .right_single_feature {
     position: relative;
     padding-left: 90px;
-    margin-bottom: 65px;
+    margin-bottom: 80px;
     margin-top: 35px;
 }
 .right_single_feature div {
@@ -478,21 +489,22 @@ div.carousel-inner .item img {
     height: 90px;
     text-align: center;
     top: -8px;
+    color: #ff8000;
+  
 }
 .right_single_feature h3 {
     text-transform: uppercase;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: bolder;
     margin-bottom: 21px;
-    color: #333333;
+    color: #ff8000;
 }
 .right_single_feature h3 span {
-    color: #f39c12;
+    color: white;
 }
 .right_single_feature p {
-    color: #333;
-    font-size: 16px;
-    font-weight: 300;
+    color: white;
+    font-size: 20px;
     line-height: 25px;
 }
 /*left feature*/
@@ -552,7 +564,6 @@ div.carousel-inner .item img {
         margin-bottom: 15px;
     }
 }
-
 
 /*---------------------------------------
    SECTION CALL TO ACTION              
@@ -616,48 +627,6 @@ div.carousel-inner .item img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     opacity: 1;
     background: #f39c12;
-}
-/*---------------------------------------
-   SECTION FUN FACTS              
------------------------------------------*/
-
-.fun_facts {
-    background: url(../images/fun_bg.jpg) no-repeat center;
-    background-size: cover;
-}
-.fun_facts .section_overlay {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: rgba(0, 0, 0, .4);
-}
-.single_fun_facts {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.single_fun_facts i {
-    color: #f39c12;
-    font-size: 60px;
-    ;
-}
-.single_fun_facts h2 {
-    color: #D7DADB;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-top: 15px;
-    margin-bottom: 1px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.single_fun_facts h2 span {
-    font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.single_fun_facts p {
-    color: #D7DADB;
-    font-size: 20px;
-    margin-top: 0px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 /*---------------------------------------
    SECTION DOWNLOAD              
@@ -741,6 +710,64 @@ div.carousel-inner .item img {
 .last {
     border-right: 1px solid #0F1217;
 }
+
+
+
+
+
+/*--------------
+gallery
+-------------*/
+
+.gallery1 {
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 40px; 
+}
+
+div.carousel-inner1 .item img {
+    border: 2px solid #f39c12;
+    border-radius: 0px;
+    width: 100%;
+    height: 600px;
+    margin: 2px;
+    margin-top: 150px;
+}
+
+.gallery_caption1 p {
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.carousel-indicators1 {
+    bottom: -20px;
+}
+
+.gallery ol.carousel-indicators1 li {
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
+    margin: 1px;
+}
+.gallery ol.carousel-indicators1 li.active {
+    width: 18px;
+    height: 18px;
+    border: 0px solid white;
+    background: white;
+}
+
+
+
+
+
+
+
+
 /*---------------------------------------
    SECTION CONTACT              
 -----------------------------------------*/

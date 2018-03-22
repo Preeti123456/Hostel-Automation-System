@@ -34,6 +34,8 @@ body {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    color: black;
+
 }
 /*---------------------------------------
    COMMON STYLES             
@@ -42,7 +44,7 @@ p {
 .section_title {
     padding-top: 72px;
     padding-bottom: 50px;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Georgia', serif;
 }
 .section_title h2 {
     text-transform: uppercase;
@@ -155,7 +157,7 @@ p {
 }
 
 .header {
-    background: url(../images/bg11.gif);
+    background: url(../images/bg123.gif);
     background-size: cover;
    background-position: center center;
 
@@ -165,9 +167,11 @@ p {
     background-color: rgba(33, 33, 33, .70);
 }
 .logo{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+   position: center;
 }
 .home_text{
+    margin-top: 10px;
     text-align: center;
 }
 @media (max-width: 768px){
@@ -181,10 +185,11 @@ p {
 }.home_text h1 {
     color: #fff;
     font-size: 28px;
+    margin-top: 50px;
     transform: uppercase;
     font-family: 'Bungee Inline', cursive;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 .home_text p {
     color: #fff;
@@ -194,7 +199,7 @@ p {
     padding-top: 10px;
 }
 .download-btn {
-    margin-top: 90px;
+    margin-top: 30px;
     margin-bottom: 50px
 }
 .home-btn,
@@ -386,7 +391,7 @@ tuor:visited {
 
 
 /*---------------------------------------
-   SECTION TESTIMONIAL              
+   SECTION  contact warden              
 -----------------------------------------*/
 
 #owl-demo .item {
@@ -464,13 +469,13 @@ div.carousel-inner .item img {
     background: linear-gradient(to right, #DCDCDC, #DCDCDC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .wow h2 {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .feature_inner {
-    margin-top: 90px;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: rgba(53, 53, 53, .55);
 }
 .feature_iphone {} .feature_iphone img {
@@ -479,7 +484,7 @@ div.carousel-inner .item img {
 .right_single_feature {
     position: relative;
     padding-left: 90px;
-    margin-bottom: 80px;
+    margin-bottom:40px;
     margin-top: 35px;
 }
 .right_single_feature div {
@@ -491,15 +496,15 @@ div.carousel-inner .item img {
     height: 90px;
     text-align: center;
     top: -8px;
-    color: #ff8000;
+    color: #FFDF40;
   
 }
 .right_single_feature h3 {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bolder;
-    margin-bottom: 21px;
-    color: #ff8000;
+    margin-bottom: 15px;
+    color: #FFDF40;
 }
 .right_single_feature h3 span {
     color: white;
@@ -514,9 +519,9 @@ div.carousel-inner .item img {
 .left_single_feature {
     position: relative;
     padding-right: 90px;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     text-align: right;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 .left_single_feature div {
     position: absolute;
@@ -532,7 +537,7 @@ div.carousel-inner .item img {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
     color: #333333;
 }
 .left_single_feature h3 span {
@@ -661,7 +666,7 @@ div.carousel-inner .item img {
 .single_store {
     text-align: center;
     border-left: 1px solid #0F1217;
-    min-height: 230px;
+    min-height: 150px;
     padding-bottom: 15px;
     position: relative;
     -webkit-transition: all 1s;
@@ -731,10 +736,10 @@ gallery
 .gallery div.carousel-inner .item img {
     border: 2px solid #f39c12;
     border-radius: 0px;
-    width: 80%;
-    height: 550px;
+    width: 75%;
+    height: 520px;
     margin: 2px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .gallery_caption1 p {
@@ -1005,8 +1010,8 @@ gallery
 
 .copyright {
     background-color: #1A1D22;
-    padding-bottom: 65px;
-    padding-top: 65px;
+    padding-bottom: 5px;
+    padding-top: 20px;
     border-bottom: 3px solid #f39c12;
 }
 .copyright h2 {
@@ -1015,6 +1020,7 @@ gallery
 }
 .copy_right_text {
     width: 60%;
+    color: white;
 }
 .copy_right_text p {
     color: #8C8B8A;
@@ -1031,6 +1037,7 @@ gallery
 }
 .scroll_top {
     text-align: right;
+    padding-left: 75%;
 }
 .scroll_top a {
     background: #f39c12;

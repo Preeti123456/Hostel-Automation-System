@@ -1,27 +1,3 @@
-/*
-Theme Name: Bent
-Author: Allie
-Version: 1.0
-URL: http://designscrazed.org/
-*/
-
-/* Table of Content
-==================================================
-  1. COMMON STYLES
-  2. SECTION HOME 
-  3. SECTION ABOUT
-  4. SECTION VIDEO
-  5. SECTION TESTIMONIAL
-  6. SECTION FEATURES 
-  7. SECTION CALL TO ACTION
-  8. SECTION APPS SCREEN 
-  9. SECTION FUN FACTS 
-  10. SECTION DOWNLOAD 
-  11. SECTION CONTACT 
-  12. SECTION SUBSCRIBE
-  13. SECTION FOOTER 
-
-*/
 * {
     margin: 0;
     padding: 0;
@@ -44,15 +20,15 @@ p {
 .section_title {
     padding-top: 72px;
     padding-bottom: 50px;
-    font-family: 'Georgia', serif;
+    font-family: 'Vollkorn', serif;
 }
 .section_title h2 {
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    color: #333;
-    font-size: 30px;
-    font-weight: 400;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
 }
 .section_title h2:after {
     content: "";
@@ -65,12 +41,13 @@ p {
     margin-left: -30px;
 }
 .section_title p {
-    text-align: center;
-    margin-top: 45px;
-    color: #333;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 300;
+    text-align: justify;
+    margin-top: 42px;
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Vollkorn', serif;
+    margin-bottom: 0px;
 }
 .parallax {
     background-attachment: fixed !important;
@@ -80,25 +57,55 @@ p {
 }
 .about_us_content{
     float:left;
-    width:33%;
+    width:30%;
+    text-align: justify;
+    font-family: 'Vollkorn', serif;
+}
+
+.about_us_content p {
+    font-family: 'Vollkorn', serif;
+    font-size: 19px;
+    padding: 8px;
+    text-align: justify;
+}
+
+.about_us_content h3 {
+    font-family: 'Vollkorn', serif;
+    font-weight: bolder;
     text-align: center;
-    padding: 13px;
-    font-family: 'Raleway', sans-serif;
 }
+
+.about_us_content ul {
+    list-style-type: none;
+}
+
+.about_us_content ul li{
+    font-family: 'Vollkorn', serif;
+    font-size: 19px;
+    padding-left: 8px;
+    text-align: justify;
+    padding-right: 8px;
+    color: black;
+}
+
 .acard{
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    height: 300px;
+    height: auto;
+    min-height: 430px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Vollkorn', serif;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 1%;
 }
-/*---------------------------------------
-   SECTION HOME              
------------------------------------------*/
-/*menu*/
 
-.header h2 {
-    height: 0px;
-    margin: 0px;
+
+.about .about_overlay {
+    background-color: rgba(33, 33, 33, .74);
 }
+
 .navbar {
     margin-top: -100px
 }
@@ -110,8 +117,10 @@ p {
         background-color: transparent;
     }
     .navbar-default .navbar-nav>li>a {
-        color: #B5B5B5;
+        color: #fff;
         font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
     }
     .navbar-default .navbar-nav>li>a:hover {
         color: #f39c12;
@@ -159,10 +168,9 @@ p {
 .header {
     background: url(../images/bg123.gif);
     background-size: cover;
-   background-position: center center;
-
+    background-position: center center;
     background-repeat:no-repeat;
-}-
+}
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .70);
 }
@@ -256,13 +264,15 @@ tuor:visited {
 -----------------------------------------*/
 
 
-
 .about {
-    background: #F1F1F1;
+    background: url(../images/intropic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .inner_about_area {
-    padding-top: 45px;
+    padding-top: 22px;
     padding-bottom: 10px;
+    font-family: 'Vollkorn', serif;
 }
 .inner_about_title {
     padding-bottom: 50px;
@@ -326,6 +336,8 @@ tuor:visited {
         margin-right: 20%
     }
 }
+
+
 /*---------------------------------------
    SECTION VIDEO              
 -----------------------------------------*/
@@ -462,21 +474,20 @@ div.carousel-inner .item img {
    SECTION FEATURES              
 -----------------------------------------*/
 
-
 .features {
-    background: #C0C0C0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DCDCDC, #DCDCDC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DCDCDC, #DCDCDC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f8f8f8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#f8f8f8, #D4D3DD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#f8f8f8, #D4D3DD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .wow h2 {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .feature_inner {
-    margin-top: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: rgba(53, 53, 53, .55);
+    margin-top: 80px;
+    padding-top: 50px;
+    background-color: #6A6662;
 }
 .feature_iphone {} .feature_iphone img {
     width: 100%;
@@ -484,44 +495,46 @@ div.carousel-inner .item img {
 .right_single_feature {
     position: relative;
     padding-left: 90px;
-    margin-bottom:40px;
+    margin-bottom: 80px;
     margin-top: 35px;
 }
 .right_single_feature div {
     position: absolute;
     font-size: 40px;
-    color: #f39c12;
+    color: #F39926;
     left: 0;
     width: 90px;
     height: 90px;
     text-align: center;
     top: -8px;
-    color: #FFDF40;
-  
+    font-weight: bolder;
 }
 .right_single_feature h3 {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bolder;
-    margin-bottom: 15px;
-    color: #FFDF40;
+    margin-bottom: 21px;
+    color: #F39926;
+    font-family: 'Vollkorn', serif;
 }
 .right_single_feature h3 span {
     color: white;
 }
 .right_single_feature p {
-    color: white;
-    font-size: 20px;
+    color: #e8e8e8;
+    font-size: 22px;
     line-height: 25px;
+    font-weight: bold;
+    font-style: italic;
 }
 /*left feature*/
 
 .left_single_feature {
     position: relative;
     padding-right: 90px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
     text-align: right;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 .left_single_feature div {
     position: absolute;
@@ -537,7 +550,7 @@ div.carousel-inner .item img {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
     color: #333333;
 }
 .left_single_feature h3 span {
@@ -571,6 +584,18 @@ div.carousel-inner .item img {
         margin-bottom: 15px;
     }
 }
+
+.features .section_title h2 {
+    color: #FF4500;
+}
+
+.features .section_title p {
+    color: #787878;
+    font-weight: normal;
+    margin-top: 7%;
+}
+
+
 
 /*---------------------------------------
    SECTION CALL TO ACTION              
@@ -727,27 +752,27 @@ gallery
 -------------*/
 
 .gallery {
-    background: #67B26F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f8f8f8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#f8f8f8, #D4D3DD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#f8f8f8, #D4D3DD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 40px; 
 }
 
 .gallery div.carousel-inner .item img {
-    border: 2px solid #f39c12;
+    border-style: none;
     border-radius: 0px;
-    width: 75%;
+    width: 80%;
     height: 520px;
     margin: 2px;
-    margin-top: 80px;
+    margin-top: 15%;
 }
 
 .gallery_caption1 p {
-    color: white;
+    color: #f39c12;
     font-family: 'Vollkorn', serif;
     font-weight: bold;
     font-size: 24px;
-    margin-top: 8px;
+    margin-top: 10px;
     font-style: italic;
 }
 
@@ -758,14 +783,14 @@ gallery
 .gallery ol.carousel-indicators li {
     width: 18px;
     height: 18px;
-    border: 1px solid white;
+    border: 1px solid orange;
     margin: 1px;
 }
 .gallery ol.carousel-indicators li.active {
     width: 18px;
     height: 18px;
     border: 0px solid white;
-    background: white;
+    background: orange;
 }
 
 
@@ -1118,3 +1143,4 @@ select:-webkit-autofill {
         -webkit-transform: scale(1.0);
     }
 }
+

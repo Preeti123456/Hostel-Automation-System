@@ -11,14 +11,14 @@ p{
 .tcolumn {
     float: left;
     width: 33.3%;
-        margin-top: 60px;
+    margin-top: 8%;
     padding: 0 4px;
 }
 .tcolumn1 {
     float: left;
     width: 33.3%;
-     
     padding: 0 4px;
+    margin-bottom: 10%;
 }
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {

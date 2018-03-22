@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eacda3; 
+	background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3); 
+	background: linear-gradient(to right, #d6ae7b, #eacda3); 
+}
+
+input[type=text], input[type="date"], textarea {
+	font-size: 20px;
+	font-family: verdana;
+	border-radius: 6px;
+	padding: 6px;
+	border: 1px solid grey;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	font-family: verdana;
+	border-radius: 5%;
+	padding: 10px;
+	background-color: lightgrey;
+	font-weight: bolder;
+	margin: 5px;
+	color: darkblue;
+}
+
+input[type=submit]:hover {
+	box-shadow: 0 10px 18px 0 rgba(0,0,0,0.2);
+}
+
+p {
+	font-family: verdana;
+	font-size: 21px;
+	margin-top: 5%;
+	margin-left: 30%;
+	color: black;
+}
+
+.subheading {
+	font-size: 26px;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 30%;
+    margin-right: 32%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 0.7em;
+    padding-left: 2em;
+    padding-right: 1em;
+    font-family: verdana;
+	font-size: 22px;
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+    width: 35%;
+    border-radius: 5px;
+	border: 2px solid navy;
+	color: darkblue;
+	background: #f0f0f0;
+}
+
+fieldset:hover {
+	box-shadow: 0 20px 28px 0 rgba(0,0,0,0.2);
+}
+
+input[type=radio] {
+	height: 16px;
+	width: 16px;
+}
+
+
+

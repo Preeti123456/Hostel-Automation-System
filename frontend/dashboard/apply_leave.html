@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave Application</title>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="leave.css">
+
+</head>
+
+<body>
+
+<form action="#" method="post" name="form" onsubmit="return mainValidate()">
+<!--   <input type="hidden" name="formID" value="80795048382465" />
+ -->  
+
+ 	<p><i>
+		Please complete the form below. Mandatory fields marked <span style="color:red;"><b>*</b></span>
+		</i></p>
+
+		<fieldset>
+		<legend class="subheading">Leave Request</legend>
+		<table align="center">
+ 		
+ 		<tr>
+ 		<td><br>Name<span style="color:red;"><b>*</b></span></td>
+		<td><br><input type="text" name="Name" maxlength="30" id="n"/></td>
+		</tr>
+
+		<tr>
+ 		<td><br>Enrolment No.<span style="color:red;"><b>*</b></span></td>
+		<td><br><input type="text" name="enrol" maxlength="30" id="n"/></td>
+		</tr>
+
+		<tr>
+ 		<td><br>Start Date of Leave<span style="color:red;"><b>*</b></span></td>
+		<td><br><input type="date" name="sdate" id="n"/></td>
+		</tr>		
+
+		<tr>
+ 		<td><br>End Date of Leave<span style="color:red;"><b>*</b></span></td>
+		<td><br><input type="date" name="edate" id="n"/></td>
+		</tr>
+
+		<tr>
+ 		<td><br>Place of visit during leave<span style="color:red;"><b>*</b></span></td>
+		<td><br><input type="text" name="place" id="n"/></td>
+		</tr>
+
+		<tr>
+ 		<td><br>Purpose of Leave/ Comments:<span style="color:red;"><b>*</b></span></td>
+		<td><br><textarea name ="purpose" rows="4" cols="20"></textarea>
+		</td>
+		</tr>
+
+		<tr>
+ 		<td colspan="2" align="center">
+ 		<br>
+		<input type="submit" value="Apply for Leave">
+ 		<br>
+ 		</td>
+		</tr>
+
+ 		</table>
+ 		</fieldset>
+ 	</form>
+ </body>
+
+</html>

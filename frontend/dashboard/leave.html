@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Leave Request</title>
+
+<!--     <link rel="stylesheet" type="text/css" href="leave.css">
+ -->
+    <!-- Simplebar -->
+    <link type="text/css" href="assets/vendor/simplebar.css" rel="stylesheet">
+
+    <!-- Material Design Icons  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Roboto Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+
+    <!-- MDK -->
+    <link type="text/css" href="assets/vendor/material-design-kit.css" rel="stylesheet">
+
+    <!-- Sidebar Collapse -->
+    <link type="text/css" href="assets/vendor/sidebar-collapse.min.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="assets/css/style.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="d-flex flex-column h-100">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand navbar-dark bg-primary m-0">
+
+            <!-- Toggle sidebar -->
+            <button class="navbar-toggler d-block" data-toggle="sidebar" type="button">
+    <span class="material-icons">menu</span>
+  </button>
+
+            <!-- Brand -->
+            <a href="student-dashboard.html" class="navbar-brand"><i class="material-icons">school</i> Student Dashboard</a>
+
+            <!-- Search -->
+<!--             <form class="navbar-search-form d-none d-md-flex">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn" type="button"><i class="material-icons">search</i></button>
+            </form> -->
+            <!-- // END Search -->
+
+            <div class="navbar-spacer"></div>
+
+            <!-- Menu -->
+            <ul class="nav navbar-nav d-none d-md-flex">
+               <!--  <li class="nav-item">
+                    <a class="nav-link" href="http://learnplus.frontendmatter.com/student-forum.html">Forum</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <!-- Menu -->
+            <ul class="nav navbar-nav">
+
+                <li class="nav-item">
+                    <a href="http://learnplus.frontendmatter.com/student-cart.html" class="nav-link">
+    <!--     <i class="material-icons">shopping_cart</i> -->
+      </a>
+                </li>
+
+                <!-- User dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="student-dashboard.html#" role="button"><img src="reeti.JPG" alt="Avatar" class="rounded-circle" width="40"></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="edit_profile.html">
+      <i class="material-icons">edit</i> Edit Account
+    </a>
+                        <a class="dropdown-item" href="#">
+      <i class="material-icons">person</i> Public Profile
+    </a>
+                        <a class="dropdown-item" href="#">
+      <i class="material-icons">lock</i> Logout
+    </a>
+                    </div>
+                </li>
+                <!-- // END User dropdown -->
+
+            </ul>
+            <!-- // END Menu -->
+
+        </nav>
+        <!-- // END Navbar -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout flex" data-fullbleed data-push data-has-scrolling-region>
+            <div class="mdk-drawer-layout__content mdk-drawer-layout__content--scrollable">
+                <div class="container-fluid">
+
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="student-dashboard.html">Home</a></li>
+                        <li class="breadcrumb-item active">Leave Request</li>
+                    </ol>
+
+    <div class="container">
+    <hr>
+    <div class="row">
+      <!-- left column -->
+      <!-- <div class="col-md-3">
+        <div class="text-center">
+          <img src="reeti.JPG" class="avatar img-circle" alt="avatar" width="100px" height="100px">
+          <br>
+          <h6>Upload a photo...</h6>
+          <input type="file">
+        </div>
+      </div> -->
+      
+      <!-- edit form column -->
+      <div class="col-md-9 personal-info">
+       
+          <form action="#" method="post" name="form" onsubmit="return mainValidate()">
+<!--   <input type="hidden" name="formID" value="80795048382465" />
+ -->  
+
+  <p><i>
+    Please complete the form below. Mandatory fields marked <span style="color:red;"><b>*</b></span>
+    </i></p>
+
+    <fieldset>
+    <legend class="subheading">Leave Request</legend>
+    <table align="center">
+    
+    <tr>
+    <td><br>Name<span style="color:red;"><b>*</b></span></td>
+    <td><br><input type="text" name="Name" maxlength="30" id="n"/></td>
+    </tr>
+
+    <tr>
+    <td><br>Enrolment No.<span style="color:red;"><b>*</b></span></td>
+    <td><br><input type="text" name="enrol" maxlength="30" id="n"/></td>
+    </tr>
+
+    <tr>
+    <td><br>Start Date of Leave<span style="color:red;"><b>*</b></span></td>
+    <td><br><input type="date" name="sdate" id="n"/></td>
+    </tr>   
+
+    <tr>
+    <td><br>End Date of Leave<span style="color:red;"><b>*</b></span></td>
+    <td><br><input type="date" name="edate" id="n"/></td>
+    </tr>
+
+    <tr>
+    <td><br>Place of visit during leave<span style="color:red;"><b>*</b></span></td>
+    <td><br><input type="text" name="place" id="n"/></td>
+    </tr>
+
+    <tr>
+    <td><br>Purpose of Leave/ Comments:<span style="color:red;"><b>*</b></span></td>
+    <td><br><textarea name ="purpose" rows="4" cols="20"></textarea>
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan="2" align="center">
+    <br>
+    <input type="submit" value="Apply for Leave">
+    <br>
+    </td>
+    </tr>
+
+    </table>
+    </fieldset>
+  </form>
+      </div>
+  </div>
+</div>
+<hr>
+
+
+            <div class="mdk-drawer js-mdk-drawer" id="default-drawer" data-align="start" data-position="left">
+                <div class="mdk-drawer__content ">
+                    <div class="sidebar sidebar-left sidebar-light sidebar-transparent-sm-up o-hidden">
+                        <div class="sidebar-p-y" data-simplebar data-simplebar-force-enabled="true">
+                            <!-- <div class="sidebar-heading">APPLICATIONS</div> -->
+                            <ul class="sidebar-menu">
+                            <li class="sidebar-menu-item"><a href="leave.html">Leave Book</a></li>
+                            <li class="sidebar-menu-item"><a href="#">Feedback Form</a></li>
+                            <li class="sidebar-menu-item"><a href="#">Fee Submission Details</a></li>
+                            <li class="sidebar-menu-item"><a href="#">View Entry/Exit Details</a></li>
+ 
+	                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Simplebar -->
+    <!-- Used for adding a custom scrollbar to the drawer -->
+    <script src="assets/vendor/simplebar.js"></script>
+
+    <!-- MDK -->
+    <script src="assets/vendor/dom-factory.js"></script>
+    <script src="assets/vendor/material-design-kit.js"></script>
+
+    <!-- Sidebar Collapse -->
+    <script src="assets/vendor/sidebar-collapse.js"></script>
+
+    <!-- App JS -->
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

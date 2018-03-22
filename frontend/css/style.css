@@ -157,8 +157,10 @@ p {
 .header {
     background: url(../images/bg11.gif);
     background-size: cover;
-    background-repeat: no-repeat;
-}
+   background-position: center center;
+
+    background-repeat:no-repeat;
+}-
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .70);
 }
@@ -719,14 +721,14 @@ div.carousel-inner .item img {
 gallery
 -------------*/
 
-.gallery1 {
+.gallery {
     background: #67B26F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 40px; 
 }
 
-div.carousel-inner1 .item img {
+.gallery div.carousel-inner .item img {
     border: 2px solid #f39c12;
     border-radius: 0px;
     width: 100%;
@@ -744,17 +746,17 @@ div.carousel-inner1 .item img {
     font-style: italic;
 }
 
-.carousel-indicators1 {
+.gallery .carousel-indicators {
     bottom: -20px;
 }
 
-.gallery ol.carousel-indicators1 li {
+.gallery ol.carousel-indicators li {
     width: 18px;
     height: 18px;
     border: 1px solid white;
     margin: 1px;
 }
-.gallery ol.carousel-indicators1 li.active {
+.gallery ol.carousel-indicators li.active {
     width: 18px;
     height: 18px;
     border: 0px solid white;
